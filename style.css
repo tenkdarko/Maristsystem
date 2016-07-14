@@ -1,0 +1,48 @@
+body{
+  background-color: lightblue;
+}
+
+fieldset { background: lightblue; margin-top: 10%;border:1px solid black; border-radius:3px;width:25%;padding: 1em;
+  font:80%/1 sans-serif; }
+
+legend {
+  padding: 0.2em 0.5em;
+  background:lightblue;
+  border-radius:3px;
+  border:1px solid black;
+  color:black;
+  font-size:90%;
+  text-align: center;
+ 
+  }
+
+  form {
+    display: inline-block;
+  }
+
+  label {
+  width:25%;
+  color:black;
+  padding-top:0.2em;
+  text-align:right;
+  font-weight:bold;
+  }
+
+  input {
+  	display: block;
+    box-sizing: border-box;
+  }
+
+  input[type='text'], input[type='password'],input[type='email']{
+  	background-color:white;
+  	border-radius:3px;
+  	border:1px solid gray;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
